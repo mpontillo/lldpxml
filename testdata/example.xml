@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lldp label="LLDP neighbors">
+    <interface label="Interface" name="eth26s0np0" via="LLDP" rid="3" age="0 day, 00:00:54">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">cc:cd:9d:dd:b0:d6</id>
+            <name label="SysName">data07</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.166</mgmt-ip>
+            <mgmt-iface label="MgmtIface">193</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-16</id>
+            <descr label="PortDescr">sw-16</descr>
+            <ttl label="TTL">20</ttl>
+            <mfs label="MFS">9216</mfs>
+            <auto-negotiation label="PMD autoneg" supported="yes" enabled="no">
+                <current label="MAU oper type">unknown</current>
+            </auto-negotiation>
+        </port>
+        <vlan label="VLAN" vlan-id="300" pvid="yes">vlan-300</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+    </interface>
+    <interface label="Interface" name="eth27s0f0np0" via="LLDP" rid="9" age="0 day, 00:00:33">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">bb:bd:34:1a:c9:89</id>
+            <name label="SysName">data09</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.159</mgmt-ip>
+            <mgmt-iface label="MgmtIface">17</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-1</id>
+            <descr label="PortDescr">sw-1</descr>
+            <ttl label="TTL">120</ttl>
+            <mfs label="MFS">9216</mfs>
+            <aggregation label="Port is aggregated. PortAggregID">631</aggregation>
+        </port>
+        <vlan label="VLAN" vlan-id="20" pvid="yes">vlan-20</vlan>
+        <vlan label="VLAN" vlan-id="50" pvid="no">vlan-50</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+        <unknown-tlvs label="Unknown TLVs">
+            <unknown-tlv label="TLV" oui="00,90,69" subtype="1" len="12">57,48,33,36,32,32,33,34,31,30,32,30</unknown-tlv>
+        </unknown-tlvs>
+    </interface>
+    <interface label="Interface" name="eth27s0f1np1" via="LLDP" rid="10" age="0 day, 00:00:30">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">bb:bd:34:73:5b:0b</id>
+            <name label="SysName">data10</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.223</mgmt-ip>
+            <mgmt-iface label="MgmtIface">17</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-1</id>
+            <descr label="PortDescr">sw-1</descr>
+            <ttl label="TTL">120</ttl>
+            <mfs label="MFS">9216</mfs>
+            <aggregation label="Port is aggregated. PortAggregID">631</aggregation>
+        </port>
+        <vlan label="VLAN" vlan-id="20" pvid="yes">vlan-20</vlan>
+        <vlan label="VLAN" vlan-id="50" pvid="no">vlan-50</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+        <unknown-tlvs label="Unknown TLVs">
+            <unknown-tlv label="TLV" oui="00,90,69" subtype="1" len="12">57,48,33,36,32,32,33,35,30,31,37,34</unknown-tlv>
+        </unknown-tlvs>
+    </interface>
+    <interface label="Interface" name="eth35s0np0" via="LLDP" rid="7" age="0 day, 00:00:52">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">cc:cd:9d:dd:7e:d6</id>
+            <name label="SysName">data08</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.230</mgmt-ip>
+            <mgmt-iface label="MgmtIface">193</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-16</id>
+            <descr label="PortDescr">sw-16</descr>
+            <ttl label="TTL">20</ttl>
+            <mfs label="MFS">9216</mfs>
+            <auto-negotiation label="PMD autoneg" supported="yes" enabled="no">
+                <current label="MAU oper type">unknown</current>
+            </auto-negotiation>
+        </port>
+        <vlan label="VLAN" vlan-id="300" pvid="yes">vlan-300</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+    </interface>
+    <interface label="Interface" name="eth97s0np0" via="LLDP" rid="8" age="0 day, 00:00:50">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">cc:cd:9d:dd:9c:d6</id>
+            <name label="SysName">data06</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.229</mgmt-ip>
+            <mgmt-iface label="MgmtIface">193</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-16</id>
+            <descr label="PortDescr">sw-16</descr>
+            <ttl label="TTL">20</ttl>
+            <mfs label="MFS">9216</mfs>
+            <auto-negotiation label="PMD autoneg" supported="yes" enabled="no">
+                <current label="MAU oper type">unknown</current>
+            </auto-negotiation>
+        </port>
+        <vlan label="VLAN" vlan-id="300" pvid="yes">vlan-300</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+    </interface>
+    <interface label="Interface" name="eth104s0np0" via="LLDP" rid="1" age="0 day, 00:00:59">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">cc:cd:9d:dd:b5:d6</id>
+            <name label="SysName">data05</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.165</mgmt-ip>
+            <mgmt-iface label="MgmtIface">193</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-16</id>
+            <descr label="PortDescr">sw-16</descr>
+            <ttl label="TTL">20</ttl>
+            <mfs label="MFS">9216</mfs>
+            <auto-negotiation label="PMD autoneg" supported="yes" enabled="no">
+                <current label="MAU oper type">unknown</current>
+            </auto-negotiation>
+        </port>
+        <vlan label="VLAN" vlan-id="300" pvid="yes">vlan-300</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+    </interface>
+    <interface label="Interface" name="eth156s0np0" via="LLDP" rid="2" age="0 day, 00:00:56">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">cc:cd:9d:dd:88:d6</id>
+            <name label="SysName">data01</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.163</mgmt-ip>
+            <mgmt-iface label="MgmtIface">193</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-16</id>
+            <descr label="PortDescr">sw-16</descr>
+            <ttl label="TTL">20</ttl>
+            <mfs label="MFS">9216</mfs>
+            <auto-negotiation label="PMD autoneg" supported="yes" enabled="no">
+                <current label="MAU oper type">unknown</current>
+            </auto-negotiation>
+        </port>
+        <vlan label="VLAN" vlan-id="300" pvid="yes">vlan-300</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+    </interface>
+    <interface label="Interface" name="eth157s0f0np0" via="LLDP" rid="9" age="0 day, 00:00:31">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">bb:bd:34:1a:c9:89</id>
+            <name label="SysName">data09</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.159</mgmt-ip>
+            <mgmt-iface label="MgmtIface">17</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-0</id>
+            <descr label="PortDescr">sw-0</descr>
+            <ttl label="TTL">120</ttl>
+            <mfs label="MFS">9216</mfs>
+            <aggregation label="Port is aggregated. PortAggregID">631</aggregation>
+        </port>
+        <vlan label="VLAN" vlan-id="20" pvid="yes">vlan-20</vlan>
+        <vlan label="VLAN" vlan-id="50" pvid="no">vlan-50</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+        <unknown-tlvs label="Unknown TLVs">
+            <unknown-tlv label="TLV" oui="00,90,69" subtype="1" len="12">57,48,33,36,32,32,33,34,31,30,32,30</unknown-tlv>
+        </unknown-tlvs>
+    </interface>
+    <interface label="Interface" name="eth157s0f1np1" via="LLDP" rid="10" age="0 day, 00:00:33">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">bb:bd:34:73:5b:0b</id>
+            <name label="SysName">data10</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.223</mgmt-ip>
+            <mgmt-iface label="MgmtIface">17</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-0</id>
+            <descr label="PortDescr">sw-0</descr>
+            <ttl label="TTL">120</ttl>
+            <mfs label="MFS">9216</mfs>
+            <aggregation label="Port is aggregated. PortAggregID">631</aggregation>
+        </port>
+        <vlan label="VLAN" vlan-id="20" pvid="yes">vlan-20</vlan>
+        <vlan label="VLAN" vlan-id="50" pvid="no">vlan-50</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+        <unknown-tlvs label="Unknown TLVs">
+            <unknown-tlv label="TLV" oui="00,90,69" subtype="1" len="12">57,48,33,36,32,32,33,35,30,31,37,34</unknown-tlv>
+        </unknown-tlvs>
+    </interface>
+    <interface label="Interface" name="eth188s0np0" via="LLDP" rid="5" age="0 day, 00:00:54">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">cc:cd:9d:dd:f6:d6</id>
+            <name label="SysName">data02</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.227</mgmt-ip>
+            <mgmt-iface label="MgmtIface">193</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-16</id>
+            <descr label="PortDescr">sw-16</descr>
+            <ttl label="TTL">20</ttl>
+            <mfs label="MFS">9216</mfs>
+            <auto-negotiation label="PMD autoneg" supported="yes" enabled="no">
+                <current label="MAU oper type">unknown</current>
+            </auto-negotiation>
+        </port>
+        <vlan label="VLAN" vlan-id="300" pvid="yes">vlan-300</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+    </interface>
+    <interface label="Interface" name="eth204s0np0" via="LLDP" rid="4" age="0 day, 00:00:54">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">cc:cd:9d:dd:d8:d6</id>
+            <name label="SysName">data03</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.164</mgmt-ip>
+            <mgmt-iface label="MgmtIface">193</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-16</id>
+            <descr label="PortDescr">sw-16</descr>
+            <ttl label="TTL">20</ttl>
+            <mfs label="MFS">9216</mfs>
+            <auto-negotiation label="PMD autoneg" supported="yes" enabled="no">
+                <current label="MAU oper type">unknown</current>
+            </auto-negotiation>
+        </port>
+        <vlan label="VLAN" vlan-id="300" pvid="yes">vlan-300</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+    </interface>
+    <interface label="Interface" name="eth220s0np0" via="LLDP" rid="6" age="0 day, 00:00:54">
+        <chassis label="Chassis">
+            <id label="ChassisID" type="mac">cc:cd:9d:dd:83:d6</id>
+            <name label="SysName">data04</name>
+            <descr label="SysDescr">Forest Corporation switcheroo</descr>
+            <mgmt-ip label="MgmtIP">192.168.130.228</mgmt-ip>
+            <mgmt-iface label="MgmtIface">193</mgmt-iface>
+            <capability label="Capability" type="Bridge" enabled="on"/>
+            <capability label="Capability" type="Router" enabled="on"/>
+        </chassis>
+        <port label="Port">
+            <id label="PortID" type="ifname">sw-16</id>
+            <descr label="PortDescr">sw-16</descr>
+            <ttl label="TTL">20</ttl>
+            <mfs label="MFS">9216</mfs>
+            <auto-negotiation label="PMD autoneg" supported="yes" enabled="no">
+                <current label="MAU oper type">unknown</current>
+            </auto-negotiation>
+        </port>
+        <vlan label="VLAN" vlan-id="300" pvid="yes">vlan-300</vlan>
+        <lldp-med label="LLDP-MED">
+            <device-type label="Device Type">Network Connectivity Device</device-type>
+            <capability label="Capability" type="Capabilities" available="yes"/>
+            <capability label="Capability" type="Policy" available="yes"/>
+            <capability label="Capability" type="Location" available="yes"/>
+            <capability label="Capability" type="MDI/PSE" available="yes"/>
+        </lldp-med>
+    </interface>
+</lldp>
